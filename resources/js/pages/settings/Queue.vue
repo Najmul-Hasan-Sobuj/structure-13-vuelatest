@@ -154,10 +154,8 @@ defineOptions({
             <CardHeader class="pb-2">
                 <CardTitle class="text-base">Active batches</CardTitle>
                 <CardDescription>
-                    Unfinished job batches ({{ batchSummary.active_batches }} batch<span
-                        v-if="batchSummary.active_batches !== 1"
-                        >es</span
-                    >)
+                    {{ batchSummary.active_batches }} unfinished
+                    {{ batchSummary.active_batches === 1 ? 'batch' : 'batches' }}
                 </CardDescription>
             </CardHeader>
             <CardContent class="flex flex-wrap gap-6 text-sm">

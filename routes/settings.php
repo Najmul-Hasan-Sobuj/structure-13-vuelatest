@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Settings\MailSettingsController;
 use App\Http\Controllers\Settings\ProfileController;
 use App\Http\Controllers\Settings\QueueMonitorController;
 use App\Http\Controllers\Settings\SecurityController;
@@ -24,4 +25,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('settings/appearance', 'settings/Appearance')->name('appearance.edit');
 
     Route::get('settings/queue', [QueueMonitorController::class, 'edit'])->name('queue-monitor.edit');
+
+    Route::get('settings/mail', [MailSettingsController::class, 'edit'])->name('mail-settings.edit');
+    Route::patch('settings/mail', [MailSettingsController::class, 'update'])->name('mail-settings.update');
+    Route::post('settings/mail/test', [MailSettingsController::class, 'sendTest'])
+        ->middleware('throttle:3,1')
+        ->name('mail-settings.test');
 });
