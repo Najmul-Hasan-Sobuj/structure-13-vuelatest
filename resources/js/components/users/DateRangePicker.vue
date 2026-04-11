@@ -65,7 +65,7 @@ function clearRange(): void {
             <Button
                 type="button"
                 variant="outline"
-                class="min-w-[12rem] justify-start gap-2 font-normal"
+                class="min-w-48 justify-start gap-2 font-normal"
             >
                 <CalendarRange class="size-4 opacity-70" />
                 <span class="truncate">{{ summary }}</span>
@@ -109,6 +109,11 @@ function clearRange(): void {
                         Clear
                     </Button>
                 </div>
+                <p class="text-muted-foreground max-w-[16rem] text-xs leading-snug">
+                    Then click
+                    <span class="text-foreground font-medium">Apply filters</span>
+                    in the toolbar to reload the table.
+                </p>
             </div>
         </PopoverContent>
     </Popover>

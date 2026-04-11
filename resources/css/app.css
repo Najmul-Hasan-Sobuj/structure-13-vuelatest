@@ -87,6 +87,42 @@
             'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
             'Noto Color Emoji';
     }
+
+    /** Bottom sheet body scroll: thinner, theme-aligned scrollbar (esp. Windows). */
+    .sheet-drawer-content {
+        scrollbar-width: thin;
+        scrollbar-color: var(--border) transparent;
+    }
+
+    .sheet-drawer-content::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .sheet-drawer-content::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .sheet-drawer-content::-webkit-scrollbar-thumb {
+        border-radius: 9999px;
+        background: var(--border);
+    }
+}
+
+/**
+ * User drawer bottom sheet: ensure full-bleed layout. Reka Dialog merges attrs in an
+ * order that can drop Tailwind positioning; without this, the panel can render like a
+ * centered modal (narrow with side gaps).
+ */
+@layer components {
+    [data-slot='sheet-content'].sheet-drawer-content {
+        top: auto !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin-inline: 0 !important;
+    }
 }
 
 :root {

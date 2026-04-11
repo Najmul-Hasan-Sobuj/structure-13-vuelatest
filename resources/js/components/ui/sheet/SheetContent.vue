@@ -36,6 +36,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
     <SheetOverlay />
     <DialogContent
       data-slot="sheet-content"
+      v-bind="{ ...$attrs, ...forwarded }"
       :class="cn(
         'bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 flex flex-col gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500',
         side === 'right'
@@ -45,9 +46,8 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
         side === 'top'
           && 'data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top inset-x-0 top-0 h-auto border-b',
         side === 'bottom'
-          && 'data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t',
+          && 'data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 left-0 right-0 top-auto h-auto w-full max-w-none border-t',
         props.class)"
-      v-bind="{ ...$attrs, ...forwarded }"
     >
       <slot />
 

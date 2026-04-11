@@ -122,6 +122,35 @@ test('update changes user attributes', function () {
         ->email->toBe('updated@example.com');
 });
 
+test('update redirect to index does not forward URL method spoof params', function () {
+    $actor = User::factory()->create();
+    $target = User::factory()->create([
+        'name' => 'Old',
+        'email' => 'old@example.com',
+    ]);
+
+    $query = http_build_query([
+        '_method' => 'PATCH',
+        'search' => 'foo',
+        'sort' => 'name',
+    ]);
+
+    $response = $this->actingAs($actor)
+        ->post(
+            route('users.update', $target).'?'.$query,
+            [
+                'name' => 'Updated',
+                'email' => 'updated@example.com',
+            ],
+        );
+
+    $response->assertRedirect();
+    expect($response->headers->get('Location'))
+        ->not->toContain('_method')
+        ->toContain('search=foo')
+        ->toContain('sort=name');
+});
+
 test('destroy deletes another user', function () {
     $actor = User::factory()->create();
     $target = User::factory()->create();

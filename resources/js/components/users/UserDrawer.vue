@@ -110,9 +110,18 @@ function runDelete(): void {
 
 <template>
     <Sheet :open="open" @update:open="emit('update:open', $event)">
-        <SheetContent side="bottom" class="max-h-[90vh] overflow-y-auto">
-            <SheetHeader class="text-left">
-                <SheetTitle>
+        <SheetContent
+            side="bottom"
+            class="sheet-drawer-content max-h-[min(92vh,100dvh)] gap-0 overflow-y-auto overflow-x-hidden rounded-t-2xl border-x-0 px-0 pt-3 pb-[max(1rem,env(safe-area-inset-bottom,0px))] shadow-xl"
+        >
+            <div
+                class="bg-muted/40 mx-auto mb-2 h-1 w-10 rounded-full"
+                aria-hidden="true"
+            />
+            <SheetHeader
+                class="text-left gap-1 border-b border-border/80 px-5 pb-4 pt-1 sm:px-6 sm:pr-14"
+            >
+                <SheetTitle class="text-lg">
                     {{
                         mode === 'create' ? 'Create user' : 'Edit user'
                     }}
@@ -126,7 +135,8 @@ function runDelete(): void {
                 </SheetDescription>
             </SheetHeader>
 
-            <div class="mt-6 pb-8">
+            <div class="px-5 py-5 sm:px-6 sm:py-6">
+                <div class="w-full space-y-4">
                 <Form
                     v-if="mode === 'create'"
                     v-bind="createForm"
@@ -284,13 +294,14 @@ function runDelete(): void {
                             v-if="user.can.delete"
                             type="button"
                             variant="destructive"
-                            class="ms-auto"
+                            class="w-full sm:ms-auto sm:w-auto"
                             @click="deleteOpen = true"
                         >
                             Delete user
                         </Button>
                     </div>
                 </Form>
+                </div>
             </div>
         </SheetContent>
     </Sheet>

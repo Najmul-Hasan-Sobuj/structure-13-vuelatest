@@ -77,15 +77,15 @@ function onReset(): void {
                 <NativeSelectOption value="50">50</NativeSelectOption>
             </NativeSelect>
         </div>
-        <div class="grid gap-2">
-            <span class="text-sm font-medium">Created</span>
+        <fieldset class="border-border grid min-w-0 gap-2 border-0 p-0">
+            <legend class="text-sm leading-none font-medium">Created</legend>
             <DateRangePicker
                 :from="draft.created_from"
                 :to="draft.created_to"
                 @update:from="draft.created_from = $event"
                 @update:to="draft.created_to = $event"
             />
-        </div>
+        </fieldset>
         <div class="flex flex-wrap gap-2 md:pb-0.5">
             <Button type="button" @click="onApply">Apply filters</Button>
             <Button type="button" variant="outline" @click="onReset">

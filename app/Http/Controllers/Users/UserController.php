@@ -8,6 +8,7 @@ use App\Http\Requests\Users\StoreUserRequest;
 use App\Http\Requests\Users\UpdateUserRequest;
 use App\Http\Resources\UserResource;
 use App\Models\User;
+use App\Services\Users\UsersIndexRedirectQuery;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -15,6 +16,10 @@ use Inertia\Response;
 
 class UserController extends Controller
 {
+    public function __construct(
+        private readonly UsersIndexRedirectQuery $usersIndexRedirectQuery,
+    ) {}
+
     public function index(IndexUserRequest $request): Response
     {
         $filters = $request->filters();
@@ -86,7 +91,7 @@ class UserController extends Controller
             'message' => __('User updated.'),
         ]);
 
-        return to_route('users.index', $request->query());
+        return to_route('users.index', $this->usersIndexRedirectQuery->fromRequest($request));
     }
 
     public function destroy(Request $request, User $user): RedirectResponse
@@ -100,6 +105,6 @@ class UserController extends Controller
             'message' => __('User deleted.'),
         ]);
 
-        return to_route('users.index', $request->query());
+        return to_route('users.index', $this->usersIndexRedirectQuery->fromRequest($request));
     }
 }
