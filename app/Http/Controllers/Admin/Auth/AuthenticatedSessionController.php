@@ -18,9 +18,7 @@ class AuthenticatedSessionController extends Controller
             return redirect()->intended(route('admin.dashboard', absolute: false));
         }
 
-        return Inertia::render('auth/Login', [
-            'canRegister' => false,
-            'canResetPassword' => false,
+        return Inertia::render('admin/auth/Login', [
             'formAction' => route('admin.login.store', absolute: false),
             'status' => $request->session()->get('status'),
         ]);
