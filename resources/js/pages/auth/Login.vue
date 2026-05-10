@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import { Form, Head } from '@inertiajs/vue3';
 import InputError from '@/components/InputError.vue';
 import PasswordInput from '@/components/PasswordInput.vue';
@@ -19,25 +20,30 @@ defineOptions({
     },
 });
 
-defineProps<{
+const props = defineProps<{
     status?: string;
     canResetPassword: boolean;
     canRegister: boolean;
+    formAction?: string;
 }>();
+
+const formDefinition = computed(() => props.formAction
+    ? { action: props.formAction, method: 'post' }
+    : store.form());
 </script>
 
 <template>
     <Head title="Log in" />
 
     <div
-        v-if="status"
+        v-if="props.status"
         class="mb-4 text-center text-sm font-medium text-green-600"
     >
-        {{ status }}
+        {{ props.status }}
     </div>
 
     <Form
-        v-bind="store.form()"
+        v-bind="formDefinition"
         :reset-on-success="['password']"
         v-slot="{ errors, processing }"
         class="flex flex-col gap-6"
@@ -62,7 +68,7 @@ defineProps<{
                 <div class="flex items-center justify-between">
                     <Label for="password">Password</Label>
                     <TextLink
-                        v-if="canResetPassword"
+                        v-if="props.canResetPassword"
                         :href="request()"
                         class="text-sm"
                         :tabindex="5"
@@ -102,7 +108,7 @@ defineProps<{
 
         <div
             class="text-center text-sm text-muted-foreground"
-            v-if="canRegister"
+            v-if="props.canRegister"
         >
             Don't have an account?
             <TextLink :href="register()" :tabindex="5">Sign up</TextLink>
