@@ -1,0 +1,99 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "NH NH" [ref=e10] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=e12]: NH
+          - generic [ref=e14]: NH
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Platform
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Dashboard" [ref=e20] [cursor=pointer]:
+              - /url: /admin
+              - img [ref=e21]
+              - generic [ref=e26]: Dashboard
+      - generic [ref=e27]:
+        - generic [ref=e28]: Authorize
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "Roles" [ref=e31] [cursor=pointer]:
+              - /url: /admin/roles
+              - img [ref=e32]
+              - generic [ref=e35]: Roles
+    - generic [ref=e36]:
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - link "Repository" [ref=e41] [cursor=pointer]:
+            - /url: https://github.com/laravel/vue-starter-kit
+            - img [ref=e42]
+            - generic [ref=e47]: Repository
+        - listitem [ref=e48]:
+          - link "Documentation" [ref=e49] [cursor=pointer]:
+            - /url: https://laravel.com/docs/starter-kits#vue
+            - img [ref=e50]
+            - generic [ref=e52]: Documentation
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - button "DA Default Admin" [ref=e55]:
+            - generic [ref=e57]: DA
+            - generic [ref=e59]: Default Admin
+            - img [ref=e60]
+  - main [ref=e63]:
+    - generic [ref=e65]:
+      - button "Toggle sidebar" [ref=e66]:
+        - img
+        - generic [ref=e67]: Toggle sidebar
+      - navigation "breadcrumb" [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "Roles" [disabled] [ref=e71]
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - heading "Roles" [level=1] [ref=e75]
+          - paragraph [ref=e76]: Manage admin roles and permissions.
+        - button "Create Role" [active] [ref=e77]
+      - table [ref=e79]:
+        - rowgroup [ref=e80]:
+          - row "Name Permissions Actions" [ref=e81]:
+            - columnheader "Name" [ref=e82]
+            - columnheader "Permissions" [ref=e83]
+            - columnheader "Actions" [ref=e84]
+        - rowgroup [ref=e85]:
+          - row "admin view roles create roles" [ref=e86]:
+            - cell "admin" [ref=e87]
+            - cell "view roles create roles" [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]: view roles
+                - generic [ref=e91]: create roles
+            - cell [ref=e92]
+          - row "mac" [ref=e93]:
+            - cell "mac" [ref=e94]
+            - cell [ref=e95]
+            - cell [ref=e96]
+          - row "test_role_1 view roles" [ref=e97]:
+            - cell "test_role_1" [ref=e98]
+            - cell "view roles" [ref=e99]:
+              - generic [ref=e101]: view roles
+            - cell [ref=e102]
+          - row "mac_test4" [ref=e103]:
+            - cell "mac_test4" [ref=e104]
+            - cell [ref=e105]
+            - cell [ref=e106]
+          - row "mac_playwright_test" [ref=e107]:
+            - cell "mac_playwright_test" [ref=e108]
+            - cell [ref=e109]
+            - cell [ref=e110]
+          - row "Manager" [ref=e111]:
+            - cell "Manager" [ref=e112]
+            - cell [ref=e113]
+            - cell [ref=e114]
+          - row "mac_log_test" [ref=e175]:
+            - cell "mac_log_test" [ref=e176]
+            - cell [ref=e177]
+            - cell [ref=e178]
+  - region "Notifications alt+T":
+    - list

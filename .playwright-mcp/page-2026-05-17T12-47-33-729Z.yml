@@ -1,0 +1,93 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Laravel Starter Kit" [ref=e10] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e12]
+          - generic [ref=e15]: Laravel Starter Kit
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Platform
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "Dashboard" [ref=e21] [cursor=pointer]:
+              - /url: /admin
+              - img [ref=e22]
+              - generic [ref=e27]: Dashboard
+      - generic [ref=e28]:
+        - generic [ref=e29]: Authorize
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Roles" [ref=e32] [cursor=pointer]:
+              - /url: /admin/roles
+              - img [ref=e33]
+              - generic [ref=e36]: Roles
+          - listitem [ref=e37]:
+            - link "Users" [ref=e38] [cursor=pointer]:
+              - /url: /admin/users
+              - img [ref=e39]
+              - generic [ref=e44]: Users
+    - generic [ref=e45]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Repository" [ref=e50] [cursor=pointer]:
+            - /url: https://github.com/laravel/vue-starter-kit
+            - img [ref=e51]
+            - generic [ref=e56]: Repository
+        - listitem [ref=e57]:
+          - link "Documentation" [ref=e58] [cursor=pointer]:
+            - /url: https://laravel.com/docs/starter-kits#vue
+            - img [ref=e59]
+            - generic [ref=e61]: Documentation
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - button "DA Default Admin" [ref=e64]:
+            - generic [ref=e66]: DA
+            - generic [ref=e68]: Default Admin
+            - img [ref=e69]
+  - main [ref=e72]:
+    - generic [ref=e74]:
+      - button "Toggle sidebar" [ref=e75]:
+        - img
+        - generic [ref=e76]: Toggle sidebar
+      - navigation "breadcrumb" [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Roles" [disabled] [ref=e80]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Roles" [level=1] [ref=e84]
+          - paragraph [ref=e85]: Manage admin roles and permissions.
+        - button "Create Role" [active] [ref=e86]
+      - table [ref=e88]:
+        - rowgroup [ref=e89]:
+          - row "Name Permissions Actions" [ref=e90]:
+            - columnheader "Name" [ref=e91]
+            - columnheader "Permissions" [ref=e92]
+            - columnheader "Actions" [ref=e93]
+        - rowgroup [ref=e94]:
+          - row "admin view users create users edit users delete users view settings edit settings Edit Delete" [ref=e95]:
+            - cell "admin" [ref=e96]
+            - cell "view users create users edit users delete users view settings edit settings" [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: view users
+                - generic [ref=e100]: create users
+                - generic [ref=e101]: edit users
+                - generic [ref=e102]: delete users
+                - generic [ref=e103]: view settings
+                - generic [ref=e104]: edit settings
+            - cell "Edit Delete" [ref=e105]:
+              - button "Edit" [ref=e106]
+              - button "Delete" [ref=e107]:
+                - button "Delete" [ref=e108]
+          - row "Editor Edit Delete" [ref=e153]:
+            - cell "Editor" [ref=e154]
+            - cell [ref=e155]
+            - cell "Edit Delete" [ref=e156]:
+              - button "Edit" [ref=e157]
+              - button "Delete" [ref=e158]:
+                - button "Delete" [ref=e159]
+  - region "Notifications alt+T":
+    - list

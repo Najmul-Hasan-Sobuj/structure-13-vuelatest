@@ -1,0 +1,202 @@
+[     108ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/roles:167
+[     170ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/1" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     170ms] [ERROR] Hydration completed but contains mismatches. @ http://structure-13-vuelatest.test/admin/roles:226
+[     170ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     171ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/2" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     171ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     172ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/3" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     172ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     172ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/4" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     173ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     173ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/5" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     173ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     174ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/6" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     174ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     175ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/7" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     175ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     175ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/roles/8" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[     176ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 2ce07e79dd3771381c63ee6041ec5348, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226

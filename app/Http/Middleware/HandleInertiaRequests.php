@@ -35,12 +35,18 @@ class HandleInertiaRequests extends Middleware
      */
     public function share(Request $request): array
     {
+        $admin = $request->user('admin');
+        if ($admin) {
+            $admin->loadMissing('roles.permissions');
+            $adminPermissions = $admin->getAllPermissions()->pluck('name');
+        }
+
         return [
             ...parent::share($request),
             'name' => config('app.name'),
             'auth' => [
                 'user' => $request->user(),
-                'admin' => $request->user('admin'),
+                'admin' => $admin ? array_merge($admin->toArray(), ['permissions' => $adminPermissions]) : null,
             ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
         ];

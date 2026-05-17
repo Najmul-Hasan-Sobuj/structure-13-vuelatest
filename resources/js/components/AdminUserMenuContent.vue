@@ -8,6 +8,7 @@ import {
     DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
 import UserInfo from '@/components/UserInfo.vue';
+import { usePermissions } from '@/composables/usePermissions';
 import type { User } from '@/types';
 
 type Props = {
@@ -17,6 +18,8 @@ type Props = {
 const handleLogout = () => {
     router.flushAll();
 };
+
+const { can } = usePermissions();
 
 defineProps<Props>();
 </script>
@@ -29,8 +32,8 @@ defineProps<Props>();
     </DropdownMenuLabel>
     <DropdownMenuSeparator />
     <DropdownMenuGroup>
-        <DropdownMenuItem :as-child="true">
-            <Link class="block w-full cursor-pointer" href="/admin/settings/profile" prefetch>
+        <DropdownMenuItem v-if="can('view settings')" :as-child="true">
+            <Link class="block w-full cursor-pointer" href="/admin/settings/profile">
                 <Settings class="mr-2 h-4 w-4" />
                 Settings
             </Link>

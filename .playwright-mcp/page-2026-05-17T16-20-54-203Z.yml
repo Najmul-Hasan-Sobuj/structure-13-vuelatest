@@ -1,0 +1,139 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin
+                    - generic:
+                      - generic: NH
+                    - generic:
+                      - generic: NH
+            - generic:
+              - generic:
+                - generic: Platform
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin
+                      - img
+                      - generic: Dashboard
+              - generic:
+                - generic: Authorize
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin/roles
+                      - img
+                      - generic: Roles
+                  - listitem:
+                    - link:
+                      - /url: /admin/users
+                      - img
+                      - generic: Users
+            - generic:
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: https://github.com/laravel/vue-starter-kit
+                        - img
+                        - generic: Repository
+                    - listitem:
+                      - link:
+                        - /url: https://laravel.com/docs/starter-kits#vue
+                        - img
+                        - generic: Documentation
+              - list:
+                - listitem:
+                  - button:
+                    - generic:
+                      - generic: DA
+                    - generic:
+                      - generic: Default Admin
+                    - img
+      - main:
+        - generic:
+          - generic:
+            - button:
+              - img
+              - generic: Toggle sidebar
+            - navigation:
+              - list:
+                - listitem:
+                  - link [disabled]: Users
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Users
+              - paragraph: Manage admin accounts and their roles.
+            - button: Create User
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - columnheader: Name
+                  - columnheader: Email
+                  - columnheader: Roles
+                  - columnheader: Actions
+              - rowgroup:
+                - row:
+                  - cell: Default Admin
+                  - cell: admin@example.com
+                  - cell:
+                    - generic:
+                      - generic: admin
+                  - cell:
+                    - button: Edit
+      - region "Notifications alt+T":
+        - list
+  - dialog "Create User" [ref=e313]:
+    - generic [ref=e314]:
+      - generic [ref=e315]:
+        - heading "Create User" [level=2] [ref=e316]
+        - paragraph [ref=e317]: Add a new admin account and assign its roles.
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]: Name
+            - textbox "Name" [ref=e322]: Test Admin User
+          - generic [ref=e323]:
+            - generic [ref=e324]: Email
+            - textbox "Email" [ref=e325]: test_admin@example.com
+          - generic [ref=e326]:
+            - generic [ref=e327]: Password
+            - textbox "Password" [ref=e328]: password
+          - generic [ref=e329]:
+            - generic [ref=e330]: Roles
+            - generic [ref=e331]:
+              - generic [ref=e332]:
+                - checkbox "admin" [ref=e333]
+                - generic [ref=e334] [cursor=pointer]: admin
+              - generic [ref=e335]:
+                - checkbox "mac" [ref=e336]
+                - generic [ref=e337] [cursor=pointer]: mac
+              - generic [ref=e338]:
+                - checkbox "test_role_1" [ref=e339]
+                - generic [ref=e340] [cursor=pointer]: test_role_1
+              - generic [ref=e341]:
+                - checkbox "mac_test4" [ref=e342]
+                - generic [ref=e343] [cursor=pointer]: mac_test4
+              - generic [ref=e344]:
+                - checkbox "mac_playwright_test" [ref=e345]
+                - generic [ref=e346] [cursor=pointer]: mac_playwright_test
+              - generic [ref=e347]:
+                - checkbox "Manager" [checked] [active] [ref=e348]:
+                  - generic:
+                    - img
+                - generic [ref=e349] [cursor=pointer]: Manager
+        - generic [ref=e350]:
+          - button "Cancel" [ref=e351]
+          - button "Save User" [ref=e352]
+    - button "Close" [ref=e353]:
+      - img [ref=e354]
+      - generic [ref=e357]: Close

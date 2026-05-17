@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\Admin\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\Settings\ProfileController;
 use App\Http\Controllers\Admin\Settings\SecurityController;
+use App\Http\Controllers\Admin\UserController;
 use App\Http\Middleware\AuthenticateAdmin;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -34,5 +36,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
         // Settings - Appearance
         Route::inertia('settings/appearance', 'admin/settings/Appearance')->name('appearance.edit');
+
+        // Authorize - Roles & Users
+        Route::resource('roles', RoleController::class);
+        Route::resource('users', UserController::class);
     });
 });

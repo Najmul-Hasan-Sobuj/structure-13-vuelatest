@@ -1,0 +1,230 @@
+- generic [ref=e1]:
+  - dialog [active] [ref=e33]:
+    - iframe [ref=e34]:
+      - generic [ref=f1e2]:
+        - generic [ref=f1e4]:
+          - generic [ref=f1e5]:
+            - img [ref=f1e7]
+            - generic [ref=f1e10]: Internal Server Error
+          - button "Copy as Markdown" [ref=f1e11] [cursor=pointer]:
+            - img [ref=f1e12]
+            - generic [ref=f1e15]: Copy as Markdown
+        - generic [ref=f1e18]:
+          - generic [ref=f1e19]:
+            - heading "Illuminate\\Contracts\\Container\\BindingResolutionException" [level=1] [ref=f1e20]
+            - generic [ref=f1e22]: vendor/laravel/framework/src/Illuminate/Container/Container.php:1127
+            - paragraph [ref=f1e23]: Target class [Spatie\Permission\Middlewares\PermissionMiddleware] does not exist.
+          - generic [ref=f1e24]:
+            - generic [ref=f1e25]:
+              - generic [ref=f1e26]:
+                - generic [ref=f1e27]: LARAVEL
+                - generic [ref=f1e28]: 13.9.0
+              - generic [ref=f1e29]:
+                - generic [ref=f1e30]: PHP
+                - generic [ref=f1e31]: 8.4.20
+            - generic [ref=f1e32]:
+              - img [ref=f1e33]
+              - text: UNHANDLED
+            - generic [ref=f1e36]: CODE 0
+          - generic [ref=f1e38]:
+            - generic [ref=f1e39]:
+              - img [ref=f1e40]
+              - text: "500"
+            - generic [ref=f1e43]:
+              - img [ref=f1e44]
+              - text: GET
+            - generic [ref=f1e47]: http://structure-13-vuelatest.test/admin/users
+            - button [ref=f1e48] [cursor=pointer]:
+              - img [ref=f1e49]
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]:
+            - generic [ref=f1e55]:
+              - img [ref=f1e57]
+              - heading "Exception trace" [level=3] [ref=f1e60]
+              - link "1 previous exception" [ref=f1e61] [cursor=pointer]:
+                - /url: "#previous-exceptions"
+            - generic [ref=f1e62]:
+              - generic [ref=f1e64] [cursor=pointer]:
+                - img [ref=f1e65]
+                - generic [ref=f1e69]: 12 vendor frames
+                - button [ref=f1e70]:
+                  - img [ref=f1e71]
+              - generic [ref=f1e75]:
+                - generic [ref=f1e76] [cursor=pointer]:
+                  - generic [ref=f1e79]:
+                    - code [ref=f1e83]:
+                      - generic [ref=f1e84]: "Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(object(Illuminate\\Http\\Request))"
+                    - generic [ref=f1e86]: app/Http/Middleware/HandleAppearance.php:21
+                  - button [ref=f1e88]:
+                    - img [ref=f1e89]
+                - code [ref=f1e97]:
+                  - generic [ref=f1e98]: 16 */
+                  - generic [ref=f1e99]: "17 public function handle(Request $request, Closure $next): Response"
+                  - generic [ref=f1e100]: "18 {"
+                  - generic [ref=f1e101]: 19 View::share('appearance', $request->cookie('appearance') ?? 'system');
+                  - generic [ref=f1e102]: "20"
+                  - generic [ref=f1e103]: 21 return $next($request);
+                  - generic [ref=f1e104]: "22 }"
+                  - generic [ref=f1e105]: "23}"
+                  - generic [ref=f1e106]: "24"
+              - generic [ref=f1e108] [cursor=pointer]:
+                - img [ref=f1e109]
+                - generic [ref=f1e113]: 47 vendor frames
+                - button [ref=f1e114]:
+                  - img [ref=f1e115]
+              - generic [ref=f1e120] [cursor=pointer]:
+                - generic [ref=f1e123]:
+                  - code [ref=f1e127]:
+                    - generic [ref=f1e128]: Illuminate\Foundation\Application->handleRequest(object(Illuminate\Http\Request))
+                  - generic [ref=f1e130]: public/index.php:20
+                - button [ref=f1e132]:
+                  - img [ref=f1e133]
+              - generic [ref=f1e138] [cursor=pointer]:
+                - img [ref=f1e139]
+                - generic [ref=f1e143]: 1 vendor frame
+                - button [ref=f1e144]:
+                  - img [ref=f1e145]
+          - generic [ref=f1e149]:
+            - generic [ref=f1e150]:
+              - img [ref=f1e152]
+              - heading "Previous exception" [level=3] [ref=f1e155]
+            - generic [ref=f1e159] [cursor=pointer]:
+              - generic [ref=f1e160]:
+                - heading "ReflectionException" [level=4] [ref=f1e161]
+                - paragraph [ref=f1e162]: Class "Spatie\Permission\Middlewares\PermissionMiddleware" does not exist
+              - button [ref=f1e163]:
+                - img [ref=f1e164]
+          - generic [ref=f1e168]:
+            - generic [ref=f1e169]:
+              - generic [ref=f1e170]:
+                - img [ref=f1e172]
+                - heading "Queries" [level=3] [ref=f1e174]
+              - generic [ref=f1e176]: 1-5 of 5
+            - generic [ref=f1e177]:
+              - generic [ref=f1e178]:
+                - generic [ref=f1e179]:
+                  - generic [ref=f1e180]:
+                    - img [ref=f1e181]
+                    - generic [ref=f1e183]: mysql
+                  - code [ref=f1e187]:
+                    - generic [ref=f1e188]: "select * from `sessions` where `id` = 'ZJAeTtiXke1FFNgrCb4MjGuNFPjHSz2SWNFBaYYx' limit 1"
+                - generic [ref=f1e189]: 0.85ms
+              - generic [ref=f1e190]:
+                - generic [ref=f1e191]:
+                  - generic [ref=f1e192]:
+                    - img [ref=f1e193]
+                    - generic [ref=f1e195]: mysql
+                  - code [ref=f1e199]:
+                    - generic [ref=f1e200]: "select * from `admins` where `id` = 1 limit 1"
+                - generic [ref=f1e201]: 0.25ms
+              - generic [ref=f1e202]:
+                - generic [ref=f1e203]:
+                  - generic [ref=f1e204]:
+                    - img [ref=f1e205]
+                    - generic [ref=f1e207]: mysql
+                  - code [ref=f1e211]:
+                    - generic [ref=f1e212]: "select `roles`.*, `model_has_roles`.`model_id` as `pivot_model_id`, `model_has_roles`.`role_id` as `pivot_role_id`, `model_has_roles`.`model_type` as `pivot_model_type` from `roles` inner join `model_has_roles` on `roles`.`id` = `model_has_roles`.`role_id` where `model_has_roles`.`model_id` in (1) and `model_has_roles`.`model_type` = 'App\\Models\\Admin'"
+                - generic [ref=f1e213]: 0.33ms
+              - generic [ref=f1e214]:
+                - generic [ref=f1e215]:
+                  - generic [ref=f1e216]:
+                    - img [ref=f1e217]
+                    - generic [ref=f1e219]: mysql
+                  - code [ref=f1e223]:
+                    - generic [ref=f1e224]: "select `permissions`.*, `role_has_permissions`.`role_id` as `pivot_role_id`, `role_has_permissions`.`permission_id` as `pivot_permission_id` from `permissions` inner join `role_has_permissions` on `permissions`.`id` = `role_has_permissions`.`permission_id` where `role_has_permissions`.`role_id` in (1)"
+                - generic [ref=f1e225]: 0.54ms
+              - generic [ref=f1e226]:
+                - generic [ref=f1e227]:
+                  - generic [ref=f1e228]:
+                    - img [ref=f1e229]
+                    - generic [ref=f1e231]: mysql
+                  - code [ref=f1e235]:
+                    - generic [ref=f1e236]: "select `permissions`.*, `model_has_permissions`.`model_id` as `pivot_model_id`, `model_has_permissions`.`permission_id` as `pivot_permission_id`, `model_has_permissions`.`model_type` as `pivot_model_type` from `permissions` inner join `model_has_permissions` on `permissions`.`id` = `model_has_permissions`.`permission_id` where `model_has_permissions`.`model_id` = 1 and `model_has_permissions`.`model_type` = 'App\\Models\\Admin'"
+                - generic [ref=f1e237]: 0.31ms
+        - generic [ref=f1e239]:
+          - generic [ref=f1e240]:
+            - heading "Headers" [level=2] [ref=f1e241]
+            - generic [ref=f1e242]:
+              - generic [ref=f1e243]:
+                - generic [ref=f1e244]: cookie
+                - generic [ref=f1e246]: XSRF-TOKEN=eyJpdiI6IjdadFBKN01GbnRwZXFCWDZkeHc5Y1E9PSIsInZhbHVlIjoicy95UnZ6Z3h2eUkxTFUzQU0vcmNCQldqd1FwdlJYN2JhSWVYVUVGWXFLK0NXUFRIT1hNQm1jY2lEVWtNYkFBelV5N3NVMWR5Qm56YTBpLzlPclR2b0VuRU1yVGZ4eTN5RlR3a0kzWnMxb3BBTjVQMFp6M2tWWE94SmRwdkVXS0kiLCJtYWMiOiJjOTQ4NThkYjc1MDU5ZTI1OTIxMGVlMjY5ZTFmOWI2MzU2MDlmNmVhY2EwNGZmOTA0MzUyYjk5MTU2N2MzYmI4IiwidGFnIjoiIn0%3D; nh-session=eyJpdiI6ImtjRHBUcUhXUmI2UHlGSk9Wb0pPQkE9PSIsInZhbHVlIjoiZmM4YmdlUjFsQW1aUWo5YlkrNHRPWVkzMS9wZW5HZmoyb3RrYXdqUW05TTRNVlpxbm82QW1XL3gvS3EzK3lzSUh0YTNrVzFBWVVaZ0liaUlRWW92Z1M3Q1FDM0dWRzROd2MxZDJkVkQ5WEZOaUdRUUphRWJvdkZPakh1S3ZINE8iLCJtYWMiOiI2MDEwY2UwNzM0MDFiNDFmYzNjYmY5NjM4OTE2OWNkNTgxZTFkNTdiODcxYTEzZDhmODMxZGE3NmJjYmY5YjYxIiwidGFnIjoiIn0%3D
+              - generic [ref=f1e247]:
+                - generic [ref=f1e248]: accept-language
+                - generic [ref=f1e250]: en-US,en;q=0.9
+              - generic [ref=f1e251]:
+                - generic [ref=f1e252]: accept-encoding
+                - generic [ref=f1e254]: gzip, deflate
+              - generic [ref=f1e255]:
+                - generic [ref=f1e256]: referer
+                - generic [ref=f1e258]: http://structure-13-vuelatest.test/admin/login
+              - generic [ref=f1e259]:
+                - generic [ref=f1e260]: user-agent
+                - generic [ref=f1e262]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+              - generic [ref=f1e263]:
+                - generic [ref=f1e264]: x-inertia
+                - generic [ref=f1e266]: "true"
+              - generic [ref=f1e267]:
+                - generic [ref=f1e268]: accept
+                - generic [ref=f1e270]: text/html, application/xhtml+xml
+              - generic [ref=f1e271]:
+                - generic [ref=f1e272]: x-requested-with
+                - generic [ref=f1e274]: XMLHttpRequest
+              - generic [ref=f1e275]:
+                - generic [ref=f1e276]: x-inertia-version
+                - generic [ref=f1e278]: 60ef31c5116e89ea996dc9ccbbb88aeb
+              - generic [ref=f1e279]:
+                - generic [ref=f1e280]: x-xsrf-token
+                - generic [ref=f1e282]: eyJpdiI6IjBjNTZhMkJlMlQ2eXRNOEdBV0Zmb2c9PSIsInZhbHVlIjoiRzdLclBWTGcyWVRweVY1dWxEME1OcWxrcHZUK3lsRkk2ZU8zMVlRY00yRVRiMnhaSTYvS1pxQzVBR1JRQmV6VStlK0Zab2lIMDRnd2dCVk1LY2pGV2t4VVdWVDc3cHhGaXdReU5pZlZyUkR2Y3RSOW96WEZoS3lrRWFFUXNTZjQiLCJtYWMiOiJkOWY4MGRkYzU4YTJhYzZmNmQyYTlkODBhM2QwODZiM2Y4OWIxOGVhNjIwNDk3MmYwOGRmODBhYTg0ZTU5OWI2IiwidGFnIjoiIn0=
+              - generic [ref=f1e283]:
+                - generic [ref=f1e284]: connection
+                - generic [ref=f1e286]: keep-alive
+              - generic [ref=f1e287]:
+                - generic [ref=f1e288]: host
+                - generic [ref=f1e290]: structure-13-vuelatest.test
+          - generic [ref=f1e291]:
+            - heading "Body" [level=2] [ref=f1e292]
+            - generic [ref=f1e293]: // No request body
+          - generic [ref=f1e294]:
+            - heading "Routing" [level=2] [ref=f1e295]
+            - generic [ref=f1e296]:
+              - generic [ref=f1e297]:
+                - generic [ref=f1e298]: controller
+                - generic [ref=f1e300]: App\Http\Controllers\Admin\UserController@index
+              - generic [ref=f1e301]:
+                - generic [ref=f1e302]: route name
+                - generic [ref=f1e304]: admin.users.index
+              - generic [ref=f1e305]:
+                - generic [ref=f1e306]: middleware
+                - generic [ref=f1e308]: web, App\Http\Middleware\AuthenticateAdmin:admin, permission:view users
+          - generic [ref=f1e309]:
+            - heading "Routing parameters" [level=2] [ref=f1e310]
+            - generic [ref=f1e311]: // No routing parameters
+        - generic [ref=f1e314]:
+          - img [ref=f1e316]
+          - img [ref=f1e3354]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "NH Admin login" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e9]: NH
+        - generic [ref=e10]: Admin login
+      - generic [ref=e11]:
+        - heading "Admin login" [level=1] [ref=e12]
+        - paragraph [ref=e13]: Sign in to your admin account
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Email address
+        - textbox "Email address" [ref=e18]:
+          - /placeholder: email@example.com
+          - text: admin@example.com
+      - generic [ref=e19]:
+        - generic [ref=e20]: Password
+        - generic [ref=e21]:
+          - textbox "Password" [ref=e22]: password
+          - button "Show password" [ref=e23]:
+            - img [ref=e24]
+      - generic [ref=e28]:
+        - checkbox "Remember me" [ref=e29]:
+          - checkbox [ref=e30]
+        - generic [ref=e31]: Remember me
+      - button "Log in" [ref=e32]

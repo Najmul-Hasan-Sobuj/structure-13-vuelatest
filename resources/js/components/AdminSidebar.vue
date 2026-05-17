@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
-import { BookOpen, FolderGit2, LayoutGrid } from 'lucide-vue-next';
+import { computed } from 'vue';
+import { BookOpen, FolderGit2, LayoutGrid, ShieldCheck, Users } from 'lucide-vue-next';
 import AdminNavUser from '@/components/AdminNavUser.vue';
 import AppLogo from '@/components/AppLogo.vue';
 import NavFooter from '@/components/NavFooter.vue';
 import NavMain from '@/components/NavMain.vue';
+import { usePermissions } from '@/composables/usePermissions';
 import {
     Sidebar,
     SidebarContent,
@@ -23,6 +25,30 @@ const mainNavItems: NavItem[] = [
         icon: LayoutGrid,
     },
 ];
+
+const { can } = usePermissions();
+
+const authorizeNavItems = computed(() => {
+    const items: NavItem[] = [];
+    
+    if (can('view roles')) {
+        items.push({
+            title: 'Roles',
+            href: '/admin/roles',
+            icon: ShieldCheck,
+        });
+    }
+    
+    if (can('view users')) {
+        items.push({
+            title: 'Users',
+            href: '/admin/users',
+            icon: Users,
+        });
+    }
+    
+    return items;
+});
 
 const footerNavItems: NavItem[] = [
     {
@@ -53,7 +79,8 @@ const footerNavItems: NavItem[] = [
         </SidebarHeader>
 
         <SidebarContent>
-            <NavMain :items="mainNavItems" />
+            <NavMain title="Platform" :items="mainNavItems" />
+            <NavMain v-if="authorizeNavItems.length > 0" title="Authorize" :items="authorizeNavItems" />
         </SidebarContent>
 
         <SidebarFooter>

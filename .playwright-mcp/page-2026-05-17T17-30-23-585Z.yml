@@ -1,0 +1,128 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin
+                    - generic:
+                      - generic: NH
+                    - generic:
+                      - generic: NH
+            - generic:
+              - generic:
+                - generic: Platform
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin
+                      - img
+                      - generic: Dashboard
+              - generic:
+                - generic: Authorize
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin/roles
+                      - img
+                      - generic: Roles
+                  - listitem:
+                    - link:
+                      - /url: /admin/users
+                      - img
+                      - generic: Users
+            - generic:
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: https://github.com/laravel/vue-starter-kit
+                        - img
+                        - generic: Repository
+                    - listitem:
+                      - link:
+                        - /url: https://laravel.com/docs/starter-kits#vue
+                        - img
+                        - generic: Documentation
+              - list:
+                - listitem:
+                  - button:
+                    - generic:
+                      - generic: DA
+                    - generic:
+                      - generic: Default Admin
+                    - img
+      - main:
+        - generic:
+          - generic:
+            - button:
+              - img
+              - generic: Toggle sidebar
+            - navigation:
+              - list:
+                - listitem:
+                  - link [disabled]: Users
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Users
+              - paragraph: Manage admin accounts and their roles.
+            - button: Create User
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - columnheader: Name
+                  - columnheader: Email
+                  - columnheader: Roles
+                  - columnheader: Actions
+              - rowgroup:
+                - row:
+                  - cell: Default Admin
+                  - cell: admin@example.com
+                  - cell:
+                    - generic:
+                      - generic: admin
+                  - cell:
+                    - button: Edit
+                - row:
+                  - cell: staff
+                  - cell: staff@gmail.com
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+      - region "Notifications alt+T":
+        - list
+  - dialog "Create User" [ref=e131]:
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - heading "Create User" [level=2] [ref=e134]
+        - paragraph [ref=e135]: Add a new admin account and assign its roles.
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: Name
+            - textbox "Name" [active] [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Email
+            - textbox "Email" [ref=e143]
+          - generic [ref=e144]:
+            - generic [ref=e145]: Password
+            - textbox "Password" [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e148]: Roles
+            - combobox [ref=e150]:
+              - img
+        - generic [ref=e151]:
+          - button "Cancel" [ref=e152]
+          - button "Save User" [ref=e153]
+    - button "Close" [ref=e154]:
+      - img [ref=e155]
+      - generic [ref=e158]: Close

@@ -1,0 +1,442 @@
+[      84ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin:167
+[    6381ms] [WARNING] [Vue warn]: Unhandled error during execution of render function 
+  at <Primitive ref=fn<forwardRef> data-reka-select-viewport="" role="presentation"  ... > 
+  at <SelectViewport class="p-1 h-[var(--reka-select-trigger-height)] w-full min-w-[var(--reka-select-trigger-width)] scroll-my-1" > 
+  at <SelectProvider context= {triggerElement: RefImpl, onTriggerChange: , valueElement: ComputedRefImpl, onValueElementChange: , contentId: reka-select-content-v-11} > 
+  at <SelectContent data-slot="select-content" position="popper" onCloseAutoFocus=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <SelectPortal> 
+  at <SelectContent position="popper" > 
+  at <PopperRoot> 
+  at <SelectRoot data-slot="select" multiple=true modelValue= []  ... > 
+  at <Select multiple=true model-value= [] onUpdate:modelValue=fn  ... > 
+  at <Primitive ref=fn<forwardRef> as-child=false as=undefined  ... > 
+  at <DismissableLayer tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <PrimitiveSlot tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <Primitive ref_key="currentRef" ref=Ref< Proxy(Object) > tabindex="-1"  ... > 
+  at <FocusScope as-child="" loop="" trapped=true  ... > 
+  at <DialogContentImpl as=undefined forceMount=false trapFocus=false  ... > 
+  at <DialogContentModal key=0 ref=fn<ref> forceMount=false  ... > 
+  at <Presence present=true data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogContent data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" onEscapeKeyDown=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[    6382ms] [WARNING] [Vue warn]: Unhandled error during execution of component update 
+  at <SelectContent data-slot="select-content" position="popper" onCloseAutoFocus=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <SelectPortal> 
+  at <SelectContent position="popper" > 
+  at <PopperRoot> 
+  at <SelectRoot data-slot="select" multiple=true modelValue= []  ... > 
+  at <Select multiple=true model-value= [] onUpdate:modelValue=fn  ... > 
+  at <Primitive ref=fn<forwardRef> as-child=false as=undefined  ... > 
+  at <DismissableLayer tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <PrimitiveSlot tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <Primitive ref_key="currentRef" ref=Ref< Proxy(Object) > tabindex="-1"  ... > 
+  at <FocusScope as-child="" loop="" trapped=true  ... > 
+  at <DialogContentImpl as=undefined forceMount=false trapFocus=false  ... > 
+  at <DialogContentModal key=0 ref=fn<ref> forceMount=false  ... > 
+  at <Presence present=true data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogContent data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" onEscapeKeyDown=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[    6385ms] [WARNING] [Vue warn]: Unhandled error during execution of watcher callback 
+  at <Presence key=0 present=true data-slot="sheet-overlay"  ... > 
+  at <DialogOverlay data-slot="sheet-overlay" class="data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-black/80" forceMount=false  ... > 
+  at <SheetOverlay> 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[    6386ms] [WARNING] [Vue warn]: Unhandled error during execution of watcher callback 
+  at <Presence present=true data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogContent data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" onEscapeKeyDown=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[    6386ms] [WARNING] [Vue warn]: Unhandled error during execution of watcher callback 
+  at <FocusScope as-child="" loop="" trapped=true  ... > 
+  at <DialogContentImpl as=undefined forceMount=false trapFocus=false  ... > 
+  at <DialogContentModal key=0 ref=fn<ref> forceMount=false  ... > 
+  at <Presence present=true data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogContent data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" onEscapeKeyDown=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[    6398ms] ReferenceError: roles is not defined
+    at ComputedRefImpl.fn (http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:43:12)
+    at refreshComputed (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:561:26)
+    at get value (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1548:3)
+    at unref (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1393:44)
+    at Object.get (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1399:63)
+    at http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:462:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+    at renderSlot (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:3919:52)
+    at http://[::1]:5173/resources/js/components/ui/select/SelectContent.vue:171:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+[    6398ms] ReferenceError: roles is not defined
+    at ComputedRefImpl.fn (http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:43:12)
+    at refreshComputed (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:561:26)
+    at get value (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1548:3)
+    at unref (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1393:44)
+    at Object.get (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1399:63)
+    at http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:462:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+    at renderSlot (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:3919:52)
+    at http://[::1]:5173/resources/js/components/ui/select/SelectContent.vue:171:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+[    6398ms] ReferenceError: roles is not defined
+    at ComputedRefImpl.fn (http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:43:12)
+    at refreshComputed (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:561:26)
+    at get value (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1548:3)
+    at unref (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1393:44)
+    at Object.get (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1399:63)
+    at http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:462:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+    at renderSlot (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:3919:52)
+    at http://[::1]:5173/resources/js/components/ui/select/SelectContent.vue:171:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+[    6398ms] ReferenceError: roles is not defined
+    at ComputedRefImpl.fn (http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:43:12)
+    at refreshComputed (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:561:26)
+    at get value (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1548:3)
+    at unref (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1393:44)
+    at Object.get (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:1399:63)
+    at http://[::1]:5173/resources/js/pages/admin/users/Index.vue?t=1779038998333:462:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+    at renderSlot (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:3919:52)
+    at http://[::1]:5173/resources/js/components/ui/select/SelectContent.vue:171:31
+    at renderFnWithContext (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:2273:10)
+[    6480ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://structure-13-vuelatest.test/admin/users:0
+[   13785ms] [WARNING] [Vue warn]: Unhandled error during execution of component update 
+  at <PopperRoot> 
+  at <SelectRoot data-slot="select" multiple=true modelValue= []  ... > 
+  at <Select multiple=true model-value= [] onUpdate:modelValue=fn  ... > 
+  at <Primitive ref=fn<forwardRef> as-child=false as=undefined  ... > 
+  at <DismissableLayer tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <PrimitiveSlot tabindex="-1" onKeydown=fn<handleKeyDown> data-slot="sheet-content"  ... > 
+  at <Primitive ref_key="currentRef" ref=Ref< Proxy(Object) > tabindex="-1"  ... > 
+  at <FocusScope as-child="" loop="" trapped=true  ... > 
+  at <DialogContentImpl as=undefined forceMount=false trapFocus=false  ... > 
+  at <DialogContentModal key=0 ref=fn<ref> forceMount=false  ... > 
+  at <Presence present=true data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogContent data-slot="sheet-content" class="bg-background data-[state=open]:animate-in data-[state=closed]:animate-out fixed z-50 gap-4 shadow-lg transition ease-in-out data-[state=closed]:duration-300 data-[state=open]:duration-500 data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" onEscapeKeyDown=fn  ... > 
+  at <Teleport disabled=false defer=false forceMount=false  ... > 
+  at <DialogPortal> 
+  at <SheetContent side="bottom" class="max-h-[90vh] rounded-t-[2rem] p-0 flex flex-col" > 
+  at <DialogRoot data-slot="sheet" open=true onUpdate:open=fn > 
+  at <Sheet open=true onUpdate:open=fn > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/Dashboard, props: Object, url: /admin, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Dashboard, setup: , __hmrId: 71d62551, render: } resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin:226
+[   13790ms] TypeError: Cannot destructure property 'type' of 'vnode' as it is null.
+    at unmount (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5830:11)
+    at unmountComponent (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5908:4)
+    at unmount (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5846:22)
+    at unmountChildren (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5917:49)
+    at unmount (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5854:116)
+    at unmountComponent (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5908:4)
+    at unmount (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5846:22)
+    at unmountChildren (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5917:49)
+    at unmount (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5855:83)
+    at unmountChildren (http://[::1]:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-BylDs-Ro.js?v=093d096d:5917:49)
+[  214830ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:167
+[  214875ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/users/3" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  214875ms] [ERROR] Hydration completed but contains mismatches. @ http://structure-13-vuelatest.test/admin/users:226
+[  214876ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  214884ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://structure-13-vuelatest.test/favicon.ico:0
+[  220333ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:167
+[  220374ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains fewer child nodes than client vdom. 
+  at <Link key=1 href="/admin/users/3" method="delete"  ... > 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  220374ms] [ERROR] Hydration completed but contains mismatches. @ http://structure-13-vuelatest.test/admin/users:226
+[  220374ms] [WARNING] [Vue warn]: Hydration children mismatch on JSHandle@node 
+Server rendered element contains more child nodes than client vdom. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  254711ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  260885ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[  736952ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1028727ms] [WARNING] [Vue warn]: Failed to resolve component: SelectTrigger
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1028728ms] [WARNING] [Vue warn]: Failed to resolve component: SelectItem
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1028728ms] [WARNING] [Vue warn]: Failed to resolve component: SelectContent
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1028728ms] [WARNING] [Vue warn]: Failed to resolve component: Select
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1028728ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1039070ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8d437586a8342bf16f472b4a728d4e82, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 1492148ms] [LOG] [vite] server connection lost. Polling for restart... @ http://structure-13-vuelatest.test/admin/users:226
+[ 1492322ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://structure-13-vuelatest.test/admin/users:204:9) @ http://structure-13-vuelatest.test/admin/users:212
+[ 1492340ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:167
+[ 2987475ms] [WARNING] [Vue warn]: Failed to resolve component: DropdownMenuTrigger
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 2987475ms] [WARNING] [Vue warn]: Failed to resolve component: DropdownMenuCheckboxItem
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 2987475ms] [WARNING] [Vue warn]: Failed to resolve component: DropdownMenuContent
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 2987475ms] [WARNING] [Vue warn]: Failed to resolve component: DropdownMenu
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 2987476ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226
+[ 2998905ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 89d163b4cf10a53b533e99f600f9b4bf, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:226

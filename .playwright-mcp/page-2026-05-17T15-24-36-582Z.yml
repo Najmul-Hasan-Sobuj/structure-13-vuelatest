@@ -1,0 +1,189 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Illuminate\\Contracts\\Container\\BindingResolutionException" [level=1] [ref=e20]
+      - generic [ref=e22]: vendor/laravel/framework/src/Illuminate/Container/Container.php:1127
+      - paragraph [ref=e23]: Target class [Spatie\Permission\Middlewares\PermissionMiddleware] does not exist.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 13.9.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.4.20
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://structure-13-vuelatest.test/admin/roles
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+        - link "1 previous exception" [ref=e61] [cursor=pointer]:
+          - /url: "#previous-exceptions"
+      - generic [ref=e62]:
+        - generic [ref=e64] [cursor=pointer]:
+          - img [ref=e65]
+          - generic [ref=e69]: 12 vendor frames
+          - button [ref=e70]:
+            - img [ref=e71]
+        - generic [ref=e75]:
+          - generic [ref=e76] [cursor=pointer]:
+            - generic [ref=e79]:
+              - code [ref=e83]:
+                - generic [ref=e84]: "Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(object(Illuminate\\Http\\Request))"
+              - generic [ref=e86]: app/Http/Middleware/HandleAppearance.php:21
+            - button [ref=e88]:
+              - img [ref=e89]
+          - code [ref=e97]:
+            - generic [ref=e98]: 16 */
+            - generic [ref=e99]: "17 public function handle(Request $request, Closure $next): Response"
+            - generic [ref=e100]: "18 {"
+            - generic [ref=e101]: 19 View::share('appearance', $request->cookie('appearance') ?? 'system');
+            - generic [ref=e102]: "20"
+            - generic [ref=e103]: 21 return $next($request);
+            - generic [ref=e104]: "22 }"
+            - generic [ref=e105]: "23}"
+            - generic [ref=e106]: "24"
+        - generic [ref=e108] [cursor=pointer]:
+          - img [ref=e109]
+          - generic [ref=e113]: 47 vendor frames
+          - button [ref=e114]:
+            - img [ref=e115]
+        - generic [ref=e120] [cursor=pointer]:
+          - generic [ref=e123]:
+            - code [ref=e127]:
+              - generic [ref=e128]: Illuminate\Foundation\Application->handleRequest(object(Illuminate\Http\Request))
+            - generic [ref=e130]: public/index.php:20
+          - button [ref=e132]:
+            - img [ref=e133]
+        - generic [ref=e138] [cursor=pointer]:
+          - img [ref=e139]
+          - generic [ref=e143]: 1 vendor frame
+          - button [ref=e144]:
+            - img [ref=e145]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - img [ref=e152]
+        - heading "Previous exception" [level=3] [ref=e155]
+      - generic [ref=e159] [cursor=pointer]:
+        - generic [ref=e160]:
+          - heading "ReflectionException" [level=4] [ref=e161]
+          - paragraph [ref=e162]: Class "Spatie\Permission\Middlewares\PermissionMiddleware" does not exist
+        - button [ref=e163]:
+          - img [ref=e164]
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - img [ref=e172]
+          - heading "Queries" [level=3] [ref=e174]
+        - generic [ref=e176]: 1-5 of 5
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - img [ref=e181]
+              - generic [ref=e183]: mysql
+            - code [ref=e187]:
+              - generic [ref=e188]: "select * from `sessions` where `id` = 'O6x84O2NZkrTDjujddw6yblAdeX38yRkgBFcrdPW' limit 1"
+          - generic [ref=e189]: 1.59ms
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - img [ref=e193]
+              - generic [ref=e195]: mysql
+            - code [ref=e199]:
+              - generic [ref=e200]: "select * from `admins` where `id` = 1 limit 1"
+          - generic [ref=e201]: 0.36ms
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - img [ref=e205]
+              - generic [ref=e207]: mysql
+            - code [ref=e211]:
+              - generic [ref=e212]: "select `roles`.*, `model_has_roles`.`model_id` as `pivot_model_id`, `model_has_roles`.`role_id` as `pivot_role_id`, `model_has_roles`.`model_type` as `pivot_model_type` from `roles` inner join `model_has_roles` on `roles`.`id` = `model_has_roles`.`role_id` where `model_has_roles`.`model_id` in (1) and `model_has_roles`.`model_type` = 'App\\Models\\Admin'"
+          - generic [ref=e213]: 0.41ms
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - img [ref=e217]
+              - generic [ref=e219]: mysql
+            - code [ref=e223]:
+              - generic [ref=e224]: "select `permissions`.*, `role_has_permissions`.`role_id` as `pivot_role_id`, `role_has_permissions`.`permission_id` as `pivot_permission_id` from `permissions` inner join `role_has_permissions` on `permissions`.`id` = `role_has_permissions`.`permission_id` where `role_has_permissions`.`role_id` in (1)"
+          - generic [ref=e225]: 0.39ms
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - img [ref=e229]
+              - generic [ref=e231]: mysql
+            - code [ref=e235]:
+              - generic [ref=e236]: "select `permissions`.*, `model_has_permissions`.`model_id` as `pivot_model_id`, `model_has_permissions`.`permission_id` as `pivot_permission_id`, `model_has_permissions`.`model_type` as `pivot_model_type` from `permissions` inner join `model_has_permissions` on `permissions`.`id` = `model_has_permissions`.`permission_id` where `model_has_permissions`.`model_id` = 1 and `model_has_permissions`.`model_type` = 'App\\Models\\Admin'"
+          - generic [ref=e237]: 0.31ms
+  - generic [ref=e239]:
+    - generic [ref=e240]:
+      - heading "Headers" [level=2] [ref=e241]
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e244]: cookie
+          - generic [ref=e246]: laravel-session=eyJpdiI6IlZjckVkUi95L1kvajBSV3A0cmd1VHc9PSIsInZhbHVlIjoiV29WWWIxcFdXY01mSmpVREV6cnZTcld6dlVnako4SU5EOERXZ3ZNc1ZHdm1wVkRtWnc5QURZU2h0MW10Y2ZxK2tGZ3NrUDFuVmdrWDljMzBpeStuQWRqTFVvM3BMTUE1SkJnL2M0b0phejJxQko2Z1dQNTNRYTcwWGV0cTV2R1QiLCJtYWMiOiIzMWFkOTY2Njg0MDYxZDAzNWU5YmI1YTMzMjA0OTRhOTY2YTI3ZjMxZjIwMTMzNGYxN2ZiMDdiZmM3M2ExNGNkIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6Im5TUkdQUHIrdDQyRkVDUnFXTGxEVEE9PSIsInZhbHVlIjoiR0RGWGd3WmtnTWVHVzRMUmplSlhHQjIvdGNWNTJINHVMT0tGSmVVVzkwZkJLdStZRGdVdDhONWNocDVFdGV4b3cvcFo2R2EzYTF1cXJ5OWJJS1lFblJRMVdyck9BTEVBYWFPejlQT1hlUmxmQmxRdXNXK0tUOHhuWU1DOW03YmUiLCJtYWMiOiJiMDYzMmMzYjRkYzVjNTc3OGE1YWE2YzI5NTFiM2EyNWNmNzE3N2MyZjgzMjU3YmE4NzRlZGYwYjAxZWI4MDg3IiwidGFnIjoiIn0%3D; nh-session=eyJpdiI6IkV5d3pDTmRvSjFHRGRmVkF1ZXpvK3c9PSIsInZhbHVlIjoiNGcxbWNGTDl2Q2QwbDN5UE54KzZkT1NhUDR4NklHRTN0MEFOanB3NmtEY2tlU1RMN2FKNXFSQVB1MVVCSXFkZjB1KzlERDhNcjBPMjlSd0pGVFk2TWlKNmRveEkxK3h2bHR0WUJPd1VtbW9QSnE4ZjAyeGJsRi9rRjc4cWN4SWEiLCJtYWMiOiIzMDAwNjgwYjQ2NGJjMmQyN2VmODdmNjgyOGMxODkyN2NmZWU0NGEwNTRmZTRiMDJjZDU1MjFmODNlOGRhYTc4IiwidGFnIjoiIn0%3D
+        - generic [ref=e247]:
+          - generic [ref=e248]: accept-language
+          - generic [ref=e250]: en-US,en;q=0.9
+        - generic [ref=e251]:
+          - generic [ref=e252]: accept-encoding
+          - generic [ref=e254]: gzip, deflate
+        - generic [ref=e255]:
+          - generic [ref=e256]: accept
+          - generic [ref=e258]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e259]:
+          - generic [ref=e260]: user-agent
+          - generic [ref=e262]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - generic [ref=e263]:
+          - generic [ref=e264]: upgrade-insecure-requests
+          - generic [ref=e266]: "1"
+        - generic [ref=e267]:
+          - generic [ref=e268]: connection
+          - generic [ref=e270]: keep-alive
+        - generic [ref=e271]:
+          - generic [ref=e272]: host
+          - generic [ref=e274]: structure-13-vuelatest.test
+    - generic [ref=e275]:
+      - heading "Body" [level=2] [ref=e276]
+      - generic [ref=e277]: // No request body
+    - generic [ref=e278]:
+      - heading "Routing" [level=2] [ref=e279]
+      - generic [ref=e280]:
+        - generic [ref=e281]:
+          - generic [ref=e282]: controller
+          - generic [ref=e284]: App\Http\Controllers\Admin\RoleController@index
+        - generic [ref=e285]:
+          - generic [ref=e286]: route name
+          - generic [ref=e288]: admin.roles.index
+        - generic [ref=e289]:
+          - generic [ref=e290]: middleware
+          - generic [ref=e292]: web, App\Http\Middleware\AuthenticateAdmin:admin, permission:view roles
+    - generic [ref=e293]:
+      - heading "Routing parameters" [level=2] [ref=e294]
+      - generic [ref=e295]: // No routing parameters
+  - generic [ref=e298]:
+    - img [ref=e300]
+    - img [ref=e3338]

@@ -1,0 +1,151 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "NH NH" [ref=e10] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=e12]: NH
+          - generic [ref=e14]: NH
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Platform
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Dashboard" [ref=e20] [cursor=pointer]:
+              - /url: /admin
+              - img [ref=e21]
+              - generic [ref=e26]: Dashboard
+      - generic [ref=e27]:
+        - generic [ref=e28]: Authorize
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "Roles" [ref=e31] [cursor=pointer]:
+              - /url: /admin/roles
+              - img [ref=e32]
+              - generic [ref=e35]: Roles
+          - listitem [ref=e36]:
+            - link "Users" [ref=e37] [cursor=pointer]:
+              - /url: /admin/users
+              - img [ref=e38]
+              - generic [ref=e43]: Users
+    - generic [ref=e44]:
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Repository" [ref=e49] [cursor=pointer]:
+            - /url: https://github.com/laravel/vue-starter-kit
+            - img [ref=e50]
+            - generic [ref=e55]: Repository
+        - listitem [ref=e56]:
+          - link "Documentation" [ref=e57] [cursor=pointer]:
+            - /url: https://laravel.com/docs/starter-kits#vue
+            - img [ref=e58]
+            - generic [ref=e60]: Documentation
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - button "DA Default Admin" [ref=e63]:
+            - generic [ref=e65]: DA
+            - generic [ref=e67]: Default Admin
+            - img [ref=e68]
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - button "Toggle sidebar" [ref=e74]:
+        - img
+        - generic [ref=e75]: Toggle sidebar
+      - navigation "breadcrumb" [ref=e76]:
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link "Roles" [disabled] [ref=e79]
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Roles" [level=1] [ref=e83]
+          - paragraph [ref=e84]: Manage admin roles and permissions.
+        - button "Create Role" [ref=e85]
+      - table [ref=e87]:
+        - rowgroup [ref=e88]:
+          - row "Name Permissions Actions" [ref=e89]:
+            - columnheader "Name" [ref=e90]
+            - columnheader "Permissions" [ref=e91]
+            - columnheader "Actions" [ref=e92]
+        - rowgroup [ref=e93]:
+          - row "admin view roles create roles edit roles delete roles view users create users edit users delete users view settings edit settings Edit Delete" [ref=e94]:
+            - cell "admin" [ref=e95]
+            - cell "view roles create roles edit roles delete roles view users create users edit users delete users view settings edit settings" [ref=e96]:
+              - generic [ref=e97]:
+                - generic [ref=e98]: view roles
+                - generic [ref=e99]: create roles
+                - generic [ref=e100]: edit roles
+                - generic [ref=e101]: delete roles
+                - generic [ref=e102]: view users
+                - generic [ref=e103]: create users
+                - generic [ref=e104]: edit users
+                - generic [ref=e105]: delete users
+                - generic [ref=e106]: view settings
+                - generic [ref=e107]: edit settings
+            - cell "Edit Delete" [ref=e108]:
+              - button "Edit" [ref=e109]
+              - button
+              - button "Delete" [ref=e110]
+          - row "mac Edit Delete" [ref=e111]:
+            - cell "mac" [ref=e112]
+            - cell [ref=e113]
+            - cell "Edit Delete" [ref=e114]:
+              - button "Edit" [ref=e115]
+              - button
+              - button "Delete" [ref=e116]
+          - row "test_role_1 view roles Edit Delete" [ref=e117]:
+            - cell "test_role_1" [ref=e118]
+            - cell "view roles" [ref=e119]:
+              - generic [ref=e121]: view roles
+            - cell "Edit Delete" [ref=e122]:
+              - button "Edit" [ref=e123]
+              - button
+              - button "Delete" [ref=e124]
+          - row "mac_test4 Edit Delete" [ref=e125]:
+            - cell "mac_test4" [ref=e126]
+            - cell [ref=e127]
+            - cell "Edit Delete" [ref=e128]:
+              - button "Edit" [ref=e129]
+              - button
+              - button "Delete" [ref=e130]
+          - row "mac_playwright_test Edit Delete" [ref=e131]:
+            - cell "mac_playwright_test" [ref=e132]
+            - cell [ref=e133]
+            - cell "Edit Delete" [ref=e134]:
+              - button "Edit" [ref=e135]
+              - button
+              - button "Delete" [ref=e136]
+          - row "Manager Edit Delete" [ref=e137]:
+            - cell "Manager" [ref=e138]
+            - cell [ref=e139]
+            - cell "Edit Delete" [ref=e140]:
+              - button "Edit" [ref=e141]
+              - button
+              - button "Delete" [ref=e142]
+          - row "mac_log_test Edit Delete" [ref=e143]:
+            - cell "mac_log_test" [ref=e144]
+            - cell [ref=e145]
+            - cell "Edit Delete" [ref=e146]:
+              - button "Edit" [ref=e147]
+              - button
+              - button "Delete" [ref=e148]
+          - row "mac_btn_test Edit Delete" [ref=e149]:
+            - cell "mac_btn_test" [ref=e150]
+            - cell [ref=e151]
+            - cell "Edit Delete" [ref=e152]:
+              - button "Edit" [ref=e153]
+              - button
+              - button "Delete" [ref=e154]
+          - row "qa_checkbox_test view roles create roles view users Edit Delete" [ref=e155]:
+            - cell "qa_checkbox_test" [ref=e156]
+            - cell "view roles create roles view users" [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]: view roles
+                - generic [ref=e160]: create roles
+                - generic [ref=e161]: view users
+            - cell "Edit Delete" [ref=e162]:
+              - button "Edit" [ref=e163]
+              - button
+              - button "Delete" [ref=e164]
+  - region "Notifications alt+T":
+    - list

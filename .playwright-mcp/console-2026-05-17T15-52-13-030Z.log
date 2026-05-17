@@ -1,0 +1,6 @@
+[     333ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/login:167
+[     453ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://structure-13-vuelatest.test/favicon.ico:0
+[   17222ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://structure-13-vuelatest.test/admin/users:0
+[   17252ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ about:srcdoc:16
+[   17443ms] [ERROR] Access to script at 'http://[::1]:5173/@vite/client' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:srcdoc:4767
+[   17443ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://[::1]:5173/@vite/client:0

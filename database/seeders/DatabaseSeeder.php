@@ -25,5 +25,8 @@ class DatabaseSeeder extends Seeder
             'name' => 'Default Admin',
             'email' => 'admin@example.com',
         ]);
+
+        // Seed permissions and roles for admin guard, then assign to Default Admin
+        $this->call(PermissionsAndRolesSeeder::class);
     }
 }

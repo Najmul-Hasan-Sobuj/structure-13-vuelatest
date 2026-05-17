@@ -1,0 +1,88 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "NH NH" [ref=e10] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=e12]: NH
+          - generic [ref=e14]: NH
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Platform
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Dashboard" [ref=e20] [cursor=pointer]:
+              - /url: /admin
+              - img [ref=e21]
+              - generic [ref=e26]: Dashboard
+      - generic [ref=e27]:
+        - generic [ref=e28]: Authorize
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "Roles" [ref=e31] [cursor=pointer]:
+              - /url: /admin/roles
+              - img [ref=e32]
+              - generic [ref=e35]: Roles
+          - listitem [ref=e36]:
+            - link "Users" [active] [ref=e37] [cursor=pointer]:
+              - /url: /admin/users
+              - img [ref=e38]
+              - generic [ref=e43]: Users
+    - generic [ref=e44]:
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Repository" [ref=e49] [cursor=pointer]:
+            - /url: https://github.com/laravel/vue-starter-kit
+            - img [ref=e50]
+            - generic [ref=e55]: Repository
+        - listitem [ref=e56]:
+          - link "Documentation" [ref=e57] [cursor=pointer]:
+            - /url: https://laravel.com/docs/starter-kits#vue
+            - img [ref=e58]
+            - generic [ref=e60]: Documentation
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - button "DA Default Admin" [ref=e63]:
+            - generic [ref=e65]: DA
+            - generic [ref=e67]: Default Admin
+            - img [ref=e68]
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - button "Toggle sidebar" [ref=e74]:
+        - img
+        - generic [ref=e75]: Toggle sidebar
+      - navigation "breadcrumb" [ref=e76]:
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link "Users" [disabled] [ref=e98]
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - heading "Users" [level=1] [ref=e102]
+          - paragraph [ref=e103]: Manage admin accounts and their roles.
+        - button "Create User" [ref=e104]
+      - table [ref=e106]:
+        - rowgroup [ref=e107]:
+          - row "Name Email Roles Actions" [ref=e108]:
+            - columnheader "Name" [ref=e109]
+            - columnheader "Email" [ref=e110]
+            - columnheader "Roles" [ref=e111]
+            - columnheader "Actions" [ref=e112]
+        - rowgroup [ref=e113]:
+          - row "Default Admin admin@example.com admin Edit" [ref=e114]:
+            - cell "Default Admin" [ref=e115]
+            - cell "admin@example.com" [ref=e116]
+            - cell "admin" [ref=e117]:
+              - generic [ref=e119]: admin
+            - cell "Edit" [ref=e120]:
+              - button "Edit" [ref=e121]
+          - row "staff staff@gmail.com Edit Delete" [ref=e122]:
+            - cell "staff" [ref=e123]
+            - cell "staff@gmail.com" [ref=e124]
+            - cell [ref=e125]
+            - cell "Edit Delete" [ref=e126]:
+              - button "Edit" [ref=e127]
+              - button "Delete" [ref=e128]:
+                - button "Delete" [ref=e129]
+  - region "Notifications alt+T":
+    - list

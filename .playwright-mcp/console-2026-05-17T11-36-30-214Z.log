@@ -1,0 +1,19 @@
+[      77ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin:167
+[   73475ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:167
+[  191089ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168
+[  195910ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168
+[  211871ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168
+[  681815ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168
+[  689213ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168
+[  725585ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="Laravel" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="Laravel" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/users/Index, props: Object, url: /admin/users, version: 8e263ac4d39d2ded3d702b110cfa8332, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 356d076d} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/users:227
+[  730339ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/users:168

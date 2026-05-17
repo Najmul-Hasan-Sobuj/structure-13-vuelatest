@@ -1,0 +1,34 @@
+[      72ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://structure-13-vuelatest.test/_boost/browser-logs @ http://structure-13-vuelatest.test/admin/roles:167
+[   76276ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 29fef99661ddcb2c4654677548ca4630, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[   84104ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 29fef99661ddcb2c4654677548ca4630, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226
+[  109089ms] [WARNING] [Vue warn]: Extraneous non-props attributes (errors, name, auth, sidebarOpen) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <Index errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <SidebarInset key=0 class="overflow-x-hidden" > 
+  at <AppContent variant="sidebar" class="overflow-x-hidden" > 
+  at <TooltipProvider delay-duration=0 > 
+  at <SidebarProvider key=1 default-open=true > 
+  at <AppShell variant="sidebar" > 
+  at <AdminSidebarLayout breadcrumbs= [Object] > 
+  at <AdminLayout errors= {} name="NH" auth= {user: Object, admin: Object}  ... > 
+  at <Inertia initialPage= {component: admin/roles/Index, props: Object, url: /admin/roles, version: 29fef99661ddcb2c4654677548ca4630, sharedProps: Array(4)} initialComponent= {layout: Object, __name: Index, props: Object, setup: , __hmrId: 0ed3779e} resolveComponent=fn<resolveComponent>  ... > 
+  at <App> @ http://structure-13-vuelatest.test/admin/roles:226

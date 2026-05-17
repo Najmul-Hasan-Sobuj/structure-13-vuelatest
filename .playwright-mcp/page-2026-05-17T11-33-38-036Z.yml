@@ -1,0 +1,55 @@
+- generic [ref=e34]:
+  - generic [ref=e37]:
+    - list [ref=e39]:
+      - listitem [ref=e40]:
+        - link "Laravel Starter Kit" [ref=e41] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e43]
+          - generic [ref=e46]: Laravel Starter Kit
+    - generic [ref=e48]:
+      - generic [ref=e49]: Platform
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link "Dashboard" [ref=e52] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e53]
+            - generic [ref=e58]: Dashboard
+    - generic [ref=e59]:
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - link "Repository" [ref=e64] [cursor=pointer]:
+            - /url: https://github.com/laravel/vue-starter-kit
+            - img [ref=e65]
+            - generic [ref=e70]: Repository
+        - listitem [ref=e71]:
+          - link "Documentation" [ref=e72] [cursor=pointer]:
+            - /url: https://laravel.com/docs/starter-kits#vue
+            - img [ref=e73]
+            - generic [ref=e75]: Documentation
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - button "DA Default Admin" [ref=e78]:
+            - generic [ref=e80]: DA
+            - generic [ref=e82]: Default Admin
+            - img [ref=e83]
+  - main [ref=e86]:
+    - generic [ref=e88]:
+      - button "Toggle sidebar" [ref=e89]:
+        - img
+        - generic [ref=e90]: Toggle sidebar
+      - navigation "breadcrumb" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Admin Dashboard" [disabled] [ref=e94]
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - paragraph [ref=e97]: Admin area
+        - heading "Admin dashboard" [level=1] [ref=e98]
+        - paragraph [ref=e99]: This is the protected entry point for admin-only functionality. We will expand this area with admin tools, permissions, and management screens.
+      - generic [ref=e100]:
+        - img [ref=e102]
+        - img [ref=e105]
+        - img [ref=e108]
+      - img [ref=e111]
+  - region "Notifications alt+T":
+    - list

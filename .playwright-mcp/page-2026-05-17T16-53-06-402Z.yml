@@ -1,0 +1,225 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin
+                    - generic:
+                      - generic: NH
+                    - generic:
+                      - generic: NH
+            - generic:
+              - generic:
+                - generic: Platform
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin
+                      - img
+                      - generic: Dashboard
+              - generic:
+                - generic: Authorize
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /admin/roles
+                      - img
+                      - generic: Roles
+                  - listitem:
+                    - link:
+                      - /url: /admin/users
+                      - img
+                      - generic: Users
+            - generic:
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: https://github.com/laravel/vue-starter-kit
+                        - img
+                        - generic: Repository
+                    - listitem:
+                      - link:
+                        - /url: https://laravel.com/docs/starter-kits#vue
+                        - img
+                        - generic: Documentation
+              - list:
+                - listitem:
+                  - button:
+                    - generic:
+                      - generic: DA
+                    - generic:
+                      - generic: Default Admin
+                    - img
+      - main:
+        - generic:
+          - generic:
+            - button:
+              - img
+              - generic: Toggle sidebar
+            - navigation:
+              - list:
+                - listitem:
+                  - link [disabled]: Roles
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Roles
+              - paragraph: Manage admin roles and permissions.
+            - button: Create Role
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - columnheader: Name
+                  - columnheader: Permissions
+                  - columnheader: Actions
+              - rowgroup:
+                - row:
+                  - cell: admin
+                  - cell:
+                    - generic:
+                      - generic: view roles
+                      - generic: create roles
+                      - generic: edit roles
+                      - generic: delete roles
+                      - generic: view users
+                      - generic: create users
+                      - generic: edit users
+                      - generic: delete users
+                      - generic: view settings
+                      - generic: edit settings
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: mac
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: test_role_1
+                  - cell:
+                    - generic:
+                      - generic: view roles
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: mac_test4
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: mac_playwright_test
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: Manager
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: mac_log_test
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: mac_btn_test
+                  - cell
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+                - row:
+                  - cell: qa_checkbox_test
+                  - cell:
+                    - generic:
+                      - generic: view roles
+                      - generic: create roles
+                      - generic: view users
+                  - cell:
+                    - button: Edit
+                    - button:
+                      - button: Delete
+      - region "Notifications alt+T":
+        - list
+  - dialog "Edit Role" [ref=e235]:
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - heading "Edit Role" [level=2] [ref=e238]
+        - paragraph [ref=e239]: Update the role name and adjust permissions below.
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e242]: Role Name
+          - textbox "Role Name" [active] [ref=e243]:
+            - /placeholder: e.g. Editor
+            - text: qa_checkbox_test
+        - generic [ref=e244]:
+          - generic [ref=e245]: Permissions
+          - generic [ref=e246]: "Debug: [ \"view roles\", \"create roles\", \"view users\" ]"
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - heading "Roles" [level=3] [ref=e249]
+              - generic [ref=e250]:
+                - generic [ref=e251] [cursor=pointer]:
+                  - checkbox "view roles"
+                  - generic: view roles
+                - generic [ref=e252] [cursor=pointer]:
+                  - checkbox "create roles"
+                  - generic: create roles
+                - generic [ref=e253] [cursor=pointer]:
+                  - checkbox "edit roles"
+                  - generic: edit roles
+                - generic [ref=e254] [cursor=pointer]:
+                  - checkbox "delete roles"
+                  - generic: delete roles
+            - generic [ref=e255]:
+              - heading "Users" [level=3] [ref=e256]
+              - generic [ref=e257]:
+                - generic [ref=e258] [cursor=pointer]:
+                  - checkbox "view users"
+                  - generic: view users
+                - generic [ref=e259] [cursor=pointer]:
+                  - checkbox "create users"
+                  - generic: create users
+                - generic [ref=e260] [cursor=pointer]:
+                  - checkbox "edit users"
+                  - generic: edit users
+                - generic [ref=e261] [cursor=pointer]:
+                  - checkbox "delete users"
+                  - generic: delete users
+            - generic [ref=e262]:
+              - heading "Settings" [level=3] [ref=e263]
+              - generic [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - checkbox "view settings"
+                  - generic: view settings
+                - generic [ref=e266] [cursor=pointer]:
+                  - checkbox "edit settings"
+                  - generic: edit settings
+        - generic [ref=e267]:
+          - button "Cancel" [ref=e268]
+          - button "Update Role" [ref=e269]
+    - button "Close" [ref=e270]:
+      - img [ref=e271]
+      - generic [ref=e274]: Close
